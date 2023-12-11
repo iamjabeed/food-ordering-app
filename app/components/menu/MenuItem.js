@@ -1,6 +1,6 @@
 const MenuItem = () => {
   return (
-    <div className="bg-gray-300 p-4 rounded-lg text-center hover:bg-white hover:shadow-md hover:shadow-black/20 transition-all duration-500">
+    <div className="bg-gray-200 p-4 rounded-lg text-center hover:bg-white hover:shadow-md hover:shadow-black/20 transition-all duration-500">
       <div className="text-center ">
         <img src="/pizza.png" alt="pizza" className="max-h-28 block mx-auto" />
       </div>
