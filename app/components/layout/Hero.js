@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaCircleArrowRight } from "react-icons/fa6";
 export default function hero() {
   return (
     <section className="hero mt-8">
@@ -17,11 +17,11 @@ export default function hero() {
         <div className="flex gap-4 text-sm">
           <button className="flex justify-center bg-primary uppercase  items-center gap-2 text-white px-4 py-2 rounded-full">
             Order now
-            <FaArrowRight />
+            <FaCircleArrowRight />
           </button>
           <button className="flex items-center border-0 gap-2 py-2 text-gray-600 font-semibold">
             Learn more
-            <FaArrowRight />
+            <FaCircleArrowRight />
           </button>
         </div>
       </div>
