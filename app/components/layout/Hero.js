@@ -2,14 +2,14 @@ import Image from "next/image";
 import { FaCircleArrowRight } from "react-icons/fa6";
 export default function hero() {
   return (
-    <section className="hero mt-8">
+    <section className="hero mt-8 gap-12">
       <div className="py-8">
         <h1 className="text-4xl font-semibold">
           Design Delicious <br />
           Your Cravings, <br />
           Your <span className="text-primary">Pizza!</span>
         </h1>
-        <p className="my-6 text-gray-500 text-sm">
+        <p className="my-6 text-gray-500 text-sm font-semibold">
           Craft Your Perfect Pizza Experience with Feastify – Where Flavor Meets
           Innovation. Immerse yourself in a culinary adventure like never
           before, where every pizza is a canvas waiting for your personal touch.

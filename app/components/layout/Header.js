@@ -1,7 +1,7 @@
 import Link from "next/link";
 const Header = () => {
   return (
-    <header className="flex justify-between items-center">
+    <header className="flex justify-between items-center mb-8">
       <nav className="flex items-center gap-8 text-gray-400 font-semibold ">
         <Link href={"/"} className="text-primary text-2xl font-semibold mr-10">
           FEASTIFY

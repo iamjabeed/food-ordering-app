@@ -1,4 +1,3 @@
-import Header from "./components/layout/Header";
 import Hero from "./components/layout/Hero";
 import HomeMenu from "./components/layout/HomeMenu";
 import SectionHeaders from "./components/layout/SectionHeaders";
@@ -6,7 +5,6 @@ import SectionHeaders from "./components/layout/SectionHeaders";
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <HomeMenu />
       <section className="text-center my-8 pt-8 border-t">
@@ -51,19 +49,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="py-8 border-t">
-        <div className="container mx-auto flex justify-between items-center">
-          <p className="text-sm">&copy; 2023 Feastify. All rights reserved.</p>
-          <div className="flex space-x-4">
-            <a href="#" className="text-gray-500">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-gray-500">
-              Terms of Service
-            </a>
-          </div>
-        </div>
-      </footer>
     </>
   );
 }
