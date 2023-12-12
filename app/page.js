@@ -30,20 +30,20 @@ export default function Home() {
           mainHeader={"Contact Us"}
         />
         <div className="py-8">
-          <div class="container mx-auto text-center">
-            <p class="text-lg mb-8">
+          <div className="container mx-auto text-center">
+            <p className="text-lg mb-8">
               Have a question or feedback? Reach out to us! We're here to help.
             </p>
             <div className="flex gap-4 items-center justify-center">
               <a
                 href="mailto:info@feastify.com"
-                class="inline-block bg-primary text-white font-semibold py-2 px-4 rounded-full"
+                className="inline-block bg-primary text-white font-semibold py-2 px-4 rounded-full"
               >
                 info@feastify.com
               </a>
               <a
                 href="tel:+44884488"
-                class="inline-block bg-primary text-white font-semibold py-2 px-4 rounded-full"
+                className="inline-block bg-primary text-white font-semibold py-2 px-4 rounded-full"
               >
                 +44884488
               </a>
@@ -51,14 +51,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer class="py-8 border-t">
-        <div class="container mx-auto flex justify-between items-center">
-          <p class="text-sm">&copy; 2023 Feastify. All rights reserved.</p>
-          <div class="flex space-x-4">
-            <a href="#" class="text-gray-500">
+      <footer className="py-8 border-t">
+        <div className="container mx-auto flex justify-between items-center">
+          <p className="text-sm">&copy; 2023 Feastify. All rights reserved.</p>
+          <div className="flex space-x-4">
+            <a href="#" className="text-gray-500">
               Privacy Policy
             </a>
-            <a href="#" class="text-gray-500">
+            <a href="#" className="text-gray-500">
               Terms of Service
             </a>
           </div>
