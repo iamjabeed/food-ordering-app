@@ -1,6 +1,7 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
@@ -16,21 +17,7 @@ export default function RootLayout({ children }) {
         <main className="max-w-5xl mx-auto p-4">
           <Header />
           {children}
-          <footer className="py-8 border-t">
-            <div className="container mx-auto flex justify-between items-center">
-              <p className="text-sm">
-                &copy; 2023 Feastify. All rights reserved.
-              </p>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-500">
-                  Privacy Policy
-                </a>
-                <a href="#" className="text-gray-500">
-                  Terms of Service
-                </a>
-              </div>
-            </div>
-          </footer>
+          <Footer />
         </main>
       </body>
     </html>
